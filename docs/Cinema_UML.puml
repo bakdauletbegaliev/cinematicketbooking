@@ -1,0 +1,16 @@
+@startuml
+left to right direction
+class Main <<Client>> { +main(args: String[]): void }
+class CinemaBookingFacade <<Facade>> { +bookTicket(movie: String, seatNumber: int, customerBalance: double): void }
+class SeatManager <<Subsystem>> { +isAvailable(seatNumber: int): boolean
++reserveSeat(seatNumber: int): boolean
++releaseSeat(seatNumber: int): void }
+class PaymentService <<Subsystem>> { +pay(amount: double, customerBalance: double): boolean }
+class TicketGenerator <<Subsystem>> { +createTicket(movie: String, seatNumber: int): String }
+class NotificationService <<Subsystem>> { +sendMessage(message: String): void }
+Main --> CinemaBookingFacade : uses
+CinemaBookingFacade --> SeatManager : reserves / releases
+CinemaBookingFacade --> PaymentService : checks payment
+CinemaBookingFacade --> TicketGenerator : creates ticket
+CinemaBookingFacade --> NotificationService : notifies
+@enduml

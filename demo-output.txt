@@ -1,0 +1,13 @@
+Booking: Interstellar, seat 3
+Ticket: Interstellar | Seat: 3
+Notification: Booking successful!
+
+Booking: Interstellar, seat 3
+Notification: Seat is unavailable or invalid.
+
+Booking: Interstellar, seat 5
+Notification: Payment failed. Seat reservation cancelled.
+
+Booking: Interstellar, seat 5
+Ticket: Interstellar | Seat: 5
+Notification: Booking successful!

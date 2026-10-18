@@ -1,0 +1,29 @@
+CINEMA TICKET BOOKING — ASSIGNMENT #4 (FACADE PATTERN)
+Student: BEGALIYEV BAKDAULET
+Group: SE-2526
+GitHub: https://github.com/bakdauletbegaliev/cinematicketbooking
+
+THIS ZIP CONTAINS EVERYTHING TO REVIEW:
+- src/*.java                         six Java source files
+- README.md                          instructions and architecture
+- docs/Assignment4_Report.pdf        complete three-page report
+- docs/Cinema_UML.pdf                UML diagram as PDF
+- docs/Cinema_UML.png                UML diagram as image
+- docs/Cinema_UML.puml               editable PlantUML
+- docs/UML_Legend.md                 class-by-class and arrow legends
+- demo-output.txt                    example console output
+- run.bat                             Windows quick start
+- run.sh                              Linux/macOS quick start
+
+TO RUN ON WINDOWS:
+1. Install JDK 17+ if not installed.
+2. Double-click run.bat OR open this directory in IntelliJ IDEA and run src/Main.java.
+
+TO RUN IN TERMINAL:
+javac -d out src/*.java
+java -cp out Main
+
+NOT YET DONE OUTSIDE THIS ZIP:
+- Publishing files to the specified GitHub repository (cannot be faked).
+- Obtaining instructor approval for the free-choice topic (Option C).
+- Independently reviewing/adapting your submission and performing your own defense.
